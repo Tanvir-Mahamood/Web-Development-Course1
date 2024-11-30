@@ -1,0 +1,13 @@
+.icon{
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    margin: 20px;
+}
+.fa-solid.fa-bangladeshi-taka-sign.fa-5x{
+    color: blueviolet;
+}
+.icon:hover{
+    color: yellow;
+}

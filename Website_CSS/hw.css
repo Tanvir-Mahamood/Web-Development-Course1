@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid;
+    background-color: green;
+    height: auto;
+    width: auto;
+}
+
+.box{
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+}

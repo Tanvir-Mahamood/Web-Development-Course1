@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#h1 {
+    font-weight: normal;
+}
+#h2 {
+    font-weight: bold;
+}
+#h3 {
+    font-weight: 500;
+    /*100 to 900*/
+}
+
+/*p {
+    text-align: center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+    color: green;
+}*/
+
+#q1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#q2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer {
+    font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}

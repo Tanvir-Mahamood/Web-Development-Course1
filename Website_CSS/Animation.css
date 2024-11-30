@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    /*animation-name: Glow;
+    animation-duration: 2s;*/
+    /*opacity: 0;*/ /*this is for FadeIn*/
+}
+/*#box:active*/
+#box:hover{
+    animation-name: Glow;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+
+    animation-play-state: running;
+}
+@keyframes slideLeft{
+    from{transform: translateX(200%);}
+}
+@keyframes slideRight{
+    to{transform: translateX(200%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(200%);}
+}
+@keyframes slideDown{
+    to{transform: translateY(200%);}
+}
+@keyframes RotateX{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes RotateY{
+    100%{transform: rotateY(360deg);}
+}
+@keyframes RotateZ{
+    50%{transform: rotateZ(360deg);}
+}
+@keyframes Grow{
+    50%{transform: scale(2, 2);}
+}
+@keyframes Shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes Fade{
+    50%{opacity: 0;}
+}
+@keyframes FadeIn{
+    100%{opacity: 1;}
+}
+@keyframes ColorChange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: aqua;}
+    100%{background-color: purple;}
+}
+@keyframes Glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}

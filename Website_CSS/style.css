@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(172, 180, 188, 0.904);
+}
+#hh{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 20px;
+
+    font-family: Verdana, arial;
+}
+h1{
+    text-shadow: 3px 3px 5px red, -3px -3px 5px green;
+}
+p{
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px solid green;
+    border-right: 3px solid orange;
+    border-radius: 20px;
+    
+    font-family: "Lucida console", "courier new";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+#p1{
+    color: tomato;
+    font-size: 1em;
+}
+#p2{
+    color: rgb(3, 119, 252);
+}
+#p3{
+    color: #11d925;
+}
+#p4{
+    color: hsl(0, 78%, 39%);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    box-shadow: 3px 3px 5px;
+}

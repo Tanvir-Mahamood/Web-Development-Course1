@@ -1,0 +1,30 @@
+.heading{
+    background-color: blue;
+    color: red;
+}
+h2{
+    background-color: green;
+    color: yellow;
+}
+p{
+    color: brown;
+}
+button{
+    background-color: aquamarine;
+    color: red;
+}
+html{
+    background-color: pink;
+}
+#secret{
+    visibility: hidden;
+}
+
+.box{
+    height: 100px;;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    border: 5px solid black;
+    margin: 5px;
+}
