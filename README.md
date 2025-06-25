@@ -21,3 +21,7 @@ I have included helpful resources and references for each practice file to assis
 - PHP [Tutorial](https://youtube.com/playlist?list=PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR&si=VgM4G1hRIZR5x_9Q)
 - MySQL [Tutorial](https://youtu.be/hlGoQC332VM?si=YHXi20Utm7K9pqHq)
 - [Bootstrap](https://getbootstrap.com/) 
+- DJango [Tutorial](https://youtu.be/C1NgOmoOszc?si=ohTxzXf4qBxZ2Idk)
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
